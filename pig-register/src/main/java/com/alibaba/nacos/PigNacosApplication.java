@@ -42,6 +42,7 @@ public class PigNacosApplication {
 	 * 初始化运行环境
 	 */
 	private static boolean initEnv() {
+//		System.setProperty("server.port", "8080");
 		System.setProperty(ConfigConstants.STANDALONE_MODE, "true");
 		System.setProperty(ConfigConstants.AUTH_ENABLED, "false");
 		System.setProperty(ConfigConstants.LOG_BASEDIR, "logs");
